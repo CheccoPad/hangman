@@ -27,11 +27,13 @@ for char in word:
 len_of_word = len(word)
 beautiful_print(final_word)
 
+
 while True:
 
     print("choose one character")
     choose_char = str(input())
     choose_char = choose_char.lower()
+
     if len(choose_char) > 1:
         print("that's more than one character, dummy")
 
